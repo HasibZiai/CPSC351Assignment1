@@ -1,23 +1,22 @@
-//Hasib Ziai			889564787
-//Vidit Chopra		   #891303158
-
+//Hasib Ziai			
+//Vidit Chopra		 
 /*
 This ready-queue is implemented like a queue that uses the first in, first out (FIFO)
 principle: items are removed from a queue in the order in which they were inserted.
 However, this ready-queue contains the pointers to the first slist_node as well as the last
 slist_node in the list. Each slist_node has a pointer that points to the next slist_node in the readyqueue.
 Below is a list of Application Programming Interface (API):
-ง create_slist_node creates a slist_node with the given data
-ง create_ready_queue creates an empty ready-queue
-ง enqueue inserts an element to the back of the queue
+ยง create_slist_node creates a slist_node with the given data
+ยง create_ready_queue creates an empty ready-queue
+ยง enqueue inserts an element to the back of the queue
 2
-ง dequeue removes the element at the front of the queue
-ง front returns the element at the front of the queue without removing it
-ง back returns the element at the back of the queue without removing it
-ง size returns the number of elements stored
-ง empty returns true if the ready queue is empty. Otherwise, false
-ง printAll prints all the nodes in the array queue
-ง printAllIntegers prints all the nodes whose data type is an integer
+ยง dequeue removes the element at the front of the queue
+ยง front returns the element at the front of the queue without removing it
+ยง back returns the element at the back of the queue without removing it
+ยง size returns the number of elements stored
+ยง empty returns true if the ready queue is empty. Otherwise, false
+ยง printAll prints all the nodes in the array queue
+ยง printAllIntegers prints all the nodes whose data type is an integer
 You will need to also implement the unit test driver in order to test your readyqueue.
 */
 
