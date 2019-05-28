@@ -1,5 +1,5 @@
 //
-//	Hasibullah Ziai   889564787
+//	Hasibullah Ziai  
 //	Vidit Chopra
 //
 //  discounts.c
